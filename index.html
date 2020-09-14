@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<!--you can inswert boilerplate which is a code template by typing<htmlandhitting enter and the boiler template
+ will be inserted in full -->
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <!--the head is the part that holds info about the web page and it tells the browser how it should hndle the page eg the title-->
+  <meta charset="utf-8">
+  <!--the meta elementas above gives associated daga to yur document in the one above it tells the browser that all the stuff
+  on our doc is encoded using th  utf-8 encoding system is a list of all the available characters we can use inside our websit UTF-8
+  is a variable-width character encoding used for electronic communication. Defined by the Unicode Standard, the name is derived from Unicode
+   (or Universal Coded Character Set) Transformation Format – 8-bit.[1]utf-8 is the standard coding that you should
+   be using in html5 because utf-8 includes all of the international symbols if you look at unicode table.com .ithere are other
+   attributes attributes for elements eg for description keywords author viewport  these are metatags that tell the browser
+    how it should render the webpage and gives info to search engines   on a webpafe hit command f you can search for a particular
+    attribute  you can go into mdn docs search for meta and it will give you lots of info-->
+
+
+  <title>Pat's personal site</title>
+</head>
+<!--you can go to packages - beautify and it will organise your code show that it shoes you the hierarchcal strucure of your code-->
+
+<body>
+  <img src="images/dbw.png" alt="dover beach woman" sizes="100px, 50vw"   /><!--this is how to put in an image - theimage tag is a self closing tag
+    but you need to put in the source either a url or a image that is included in the same directory as my website
+  notice that if my image is inside a folder within my personal site I have to put in a path to the folder by image/name of image-->
+  <!--you can crop yur image on crop-circle.imageonline.co-->
+<table cellspacing=20>
+  <tr>
+    <td><img src="images/me.png"></td>
+    <td><em>retired teacher <strong>would-be artist</strong> </em></td>
+  </tr>
+
+</table>
+
+  <h1>Patricia Oxley</h1>
+  <p>
+    <em>retired teacher <strong>would-be artist</strong> </em>
+    <!--how to make our text italicised  use i? i can google for it ie search for italicise html mdn
+    this will bring up two options i or em - both make the txt italic but i only affects the text whereas em affects
+    the structure so we should always use em-->
+    <!--similar to this is the b tag as opposed to the strong tag both make the text bold but the strong tag
+    adds a structural info-->
+    <!--you can read aboout these tags in mdn -->
+  </p>
+  <p>
+    still wanting after all these years
+  </p>
+  <hr />
+  <h3> websites</h3>
+  <!--here you can use ul for unordered list  - it is bulleted though and of course you have to close it at the end
+  with /ul then within that
+  you use li to give first item in list and close it with /li then within a li.../li you can put another ul to give a list
+  inside a listed item but you must close it within
+  /ul and mae sure all is opned and closed appropriately -->
+  <ul>
+    <li>
+      <a href="https://patriciaoxley.com">patriciaoxley.com</a><!--note that the url must have the https://bit
+        and the name of the site mus be within the opening<a and the closing</a>-->
+    </li>
+    <li>
+      isitart.com <ul>
+        <li>
+          all about aesthetics
+        </li>
+        <li>
+          also notes
+        </li>
+
+      </ul>
+
+    </li>
+  </ul>
+  <hr>
+  <h3>work experience</h3>
+  <p>2002 to 2004 tic eal students at Mitcham High School</p>
+  <!--here we learn how to use tables so that eg our workexperience looks cool
+so we can look for html tables mdn and find stuff about tables tables
+have rows and cells and headers body and footers-->
+<table>
+  <tr>
+    <td>2004-2007</td>
+    <td>sen teacher</td>
+  </tr>
+  <tr>
+    <td>2002-2004</td>
+    <td>tic personal</td>
+  </tr>
+
+</table>
+<hr>
+  <h3>my hobbies</h3><!--hre I neeed to put in a numbered list so I use  <ol> as open and /ol as closed
+    and within those i use li and /li the same as in ul-->
+  <ol>
+    <li>reading</li>
+    <li><a href="https://www.paul-gauguin.net/The-Siesta.html">sleeping</a></li>
+    <li>sleeping  <ol>
+      <li>in bed</li>
+      <li>on the settee</li>
+      <li><a href="mypaintings.html">my paintings</a></li>
+    </ol> </li><tr>
+
+    </tr>
+  </ol>
+  <!--you can also change how the listed items appear eg you can use ol type="i"-->
+
+<ol type="i">
+  <li> chocolate</li>
+  <li>cake</li>
+
+
+
+  </ol>
+<hr>
+  <h3>My skills</h3>
+  <!--this next is a nested table  it has two colums and two table data ccells
+  it uses html to make tables but it is not the best way to do this qhich is css
+  but by doing it i can learn a lot about tables even though I will use the more efficient css
+  in the future-->
+  <!--so you can use the structure of a single table with two tables nested inside-->
+  <!--then we learn how to give spacing to tables-->
+
+
+  <table cellspacing=35>
+    <tr>
+      <td>life drawing</td><td>🌈🌈🌈</td>
+      <td>painting</td><td>🌈🌈</td>
+
+
+    </tr>
+    <tr>
+      <td>photoshop</td><td>🌈</td> <td>snoozing</td><td>🌈</td>
+
+    </tr>
+
+
+  </table>
+  <table>
+    <tr>
+      <td><td>life drawing</td><td>🌈🌈🌈</td>
+      <td>painting</td><td>🌈🌈</td></td>
+    </tr>
+  </table>
+  <hr>
+  <!--now to learn how to make forms
+  so need to go to html  forms mdn and need to start reading through these docs
+but this needs a bit more than html because we need to specify the
+behaviour of the form so we cannot do it fully until
+we can do javascript but for now we willuse html-->
+
+  <ol>
+    <li><a href="contactme.html">Contact me</a></li>
+  </ol>
+
+
+
+
+
+
+
+
+  <!--now to find out how to make lists-->
+
+</body>
+
+</html>
+
+<!--to get back theleft hand pane where it gives the personal site and <thead>
+  folders within In the Atom menu bar, choose File > Add Project Folder.
+  This will launch your file manager.
+  Navigate to the HelloWorld folder and select Open.
+  The folder will open in Atom's side pane.-->
+</thead>
+<!--publish hosting on github  first <section>
+  up github account
+</section>
